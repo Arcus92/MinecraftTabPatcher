@@ -1,0 +1,10 @@
+﻿################################################################################
+# Diese .gitignore-Datei wurde von Microsoft(R) Visual Studio automatisch erstellt.
+################################################################################
+
+/JavaDecompiler/bin
+/JavaDecompiler/obj
+/MinecraftTabPatcher/bin
+/MinecraftTabPatcher/obj
+/.vs
+*.user
