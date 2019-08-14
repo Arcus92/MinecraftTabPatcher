@@ -12,16 +12,28 @@ The game will not check your keyboard bindings if there is a system key with hig
 The tools to create Minecraft 1.13 or 1.14 mods haven't been released yet. I failed to update MCP *(Mod Coder Pack)* by hand. So I created my own patcher to fix the bug in any version of Minecraft. Even in other mods! You can also patch an OptiFine or a Forge version. Try it out!
 
 ## How does it work?
-* Download and extract the tool. 
-* Run *MinecraftTabPatcher.exe*.
-* Read the instructions carefully and press any key to continue.
-* Select the base Minecraft version you want to patch.
-* The tool will create a new Minecraft version. Wait.
-* Start the Minecraft launcher.
-* Create a new profile.
-* Choose the new created version and save the profile.
-* Now run your new profile in the luncher.
-* Bind your inventory to 'tab'.
-* Start a world.
-* Open and close your inventory by pressing the 'tab' key. It will work.
-* Party hard!
+1. Download and extract the tool. 
+2. Run *MinecraftTabPatcher.exe*.
+3. Read the instructions carefully and press any key to continue.
+4. Select the base Minecraft version you want to patch.
+5. The tool will create a new Minecraft version. Wait.
+6. Start the Minecraft launcher.
+7. Create a new profile.
+8. Choose the new created version and save the profile.
+9. Now run your new profile in the luncher.
+10. Bind your inventory to 'tab'.
+11. Start a world.
+12. Open and close your inventory by pressing the 'tab' key. It will work!
+
+## Requirements
+
+* Minecraft *(obviously)*
+* [.NET Core Runtime 2.1](https://dotnet.microsoft.com/download/dotnet-core/2.1)
+
+## Build from source
+* Install [.NET Core SDK 2.1](https://dotnet.microsoft.com/download/dotnet-core/2.1)
+* Run ```dotnet restore```
+* Run ```dotnet publish -c Release -r win-x86 --self-contained false``` to build a 32bit app
+* Run ```dotnet publish -c Release -r win-x64 --self-contained false``` to build a 64bit app
+* Remove ```--self-contained false``` to create a portable app. You won't need the *.NET Core Runtime* anymore but it will generate a much larger app.
+
