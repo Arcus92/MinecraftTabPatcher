@@ -12,7 +12,7 @@ The game will not check your keyboard bindings if there is a system key with hig
 The tools to create Minecraft 1.13 or 1.14 mods haven't been released yet. I failed to update MCP *(Mod Coder Pack)* by hand. So I created my own patcher to fix the bug in any version of Minecraft. Even in other mods! You can also patch an OptiFine or a Forge version. Try it out!
 
 ## How does it work?
-1. Download and extract the tool. 
+1. [Download](https://github.com/Arcus92/MinecraftTabPatcher/releases) and extract the tool. 
 2. Run *MinecraftTabPatcher.exe*.
 3. Read the instructions carefully and press any key to continue.
 4. Select the base Minecraft version you want to patch.
